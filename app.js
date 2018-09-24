@@ -47,6 +47,8 @@ function getTime() {
 }
 
 
+getTime();
+
 // Updates time/hands every second
  setInterval(getTime, 1000);
 
